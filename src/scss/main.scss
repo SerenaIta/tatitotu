@@ -1,6 +1,8 @@
 @import "base";
 @import "layout";
-@import "modules/example";
+@import "modules/header";
+@import "modules/section-phrase-accroche";
+@import "modules/section-general-buttons";
 
 @import "bootstrap/scss/bootstrap-grid";
 
@@ -15,3 +17,5 @@
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
+// _____________________________________________________

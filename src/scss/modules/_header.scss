@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.nav div {
+  padding: 0 89px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}

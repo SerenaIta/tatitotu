@@ -1,0 +1,38 @@
+.section-general-buttons {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-size: 22px;
+  padding-top: 65px;
+  padding-bottom: 85px;
+}
+
+.icons {
+  max-width: 25px;
+}
+
+.home-button {
+  padding: 13px 31px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.exercer-home-button {
+  background-color: #fcaf17;
+}
+
+.imprimer-home-button {
+  background-color: #5686da;
+}
+
+.mondefi-home-button {
+  background-color: #77bd1d;
+}
+
+.apprentissage-home-button {
+  background-color: #f56076;
+}
