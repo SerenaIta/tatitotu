@@ -7,6 +7,12 @@
   font-size: 22px;
   padding-top: 65px;
   padding-bottom: 85px;
+  gap: 33px;
+}
+
+a {
+  display: flex;
+  gap: 10px;
 }
 
 .icons {
@@ -16,9 +22,6 @@
 .home-button {
   padding: 13px 31px;
   border-radius: 4px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
 .exercer-home-button {
