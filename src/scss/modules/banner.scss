@@ -1,0 +1,52 @@
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.blue-banner-part {
+  padding: 12px 0;
+  background-color: #5686da;
+  display: flex;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.banner-arrow-div {
+  display: flex;
+  padding-left: 50px;
+}
+
+.banner-button-flexbox {
+  display: flex;
+  gap: 10px;
+  padding-top: 7px;
+}
+
+.banner-button {
+  padding-left: 510px;
+}
+
+.little-banner-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  width: 90px;
+}
+
+.green-banner-part {
+  background-color: #77bd1d;
+}
+
+.yellow-banner-part {
+  background-color: #fcaf17;
+}
+
+.red-banner-part {
+  background-color: #f56076;
+}
+
+.arrow-icon {
+  width: 40px;
+}
