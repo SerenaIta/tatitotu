@@ -1,0 +1,30 @@
+.menu-deroulant img {
+  width: 11px;
+  height: 19px;
+}
+
+.menu-deroulant {
+  background: rgb(86, 134, 218);
+  background: linear-gradient(
+    148deg,
+    rgba(86, 134, 218, 0.7) 0%,
+    rgba(86, 134, 218, 0.15) 100%
+  );
+  border-radius: 4px;
+  padding: 13px 19px 13px 31px;
+  display: flex;
+  gap: 32px;
+  margin-top: 21px;
+}
+
+.gap-of-type-menu {
+  gap: 85px;
+}
+
+.gap-of-impression-menu {
+  gap: 96px;
+}
+
+.menus-deroulants-container {
+  margin-bottom: 49px;
+}

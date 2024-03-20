@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="">
       <div class="row">
         <div class="col-12">
           <div class="banner-container">
@@ -61,16 +61,67 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container menus-deroulants-container">
       <div class="row">
-        <div class="col-4">nombre de questions</div>
-        <div class="col-4">type</div>
-        <div class="col-4">options d’impression</div>
+        <div class="col-4">
+          <div class="menu-deroulant">
+            <div><p class="uppercase-text">nombre de questions</p></div>
+            <div><p>20</p></div>
+            <div><img src="img/icon-arrow.png" alt="" /></div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="menu-deroulant gap-of-type-menu">
+            <div><p class="uppercase-text">type</p></div>
+            <div><p>Conjugaison</p></div>
+            <div><img src="img/icon-arrow.png" alt="" /></div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="menu-deroulant gap-of-impression-menu">
+            <div><p class="uppercase-text">options d'impression</p></div>
+            <div><img src="img/icon-arrow.png" alt="" /></div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-4">mes verbes</div>
+        <div class="col-4">
+          <div class="mes-verbes-container">
+            <div class="title-mes-verbes-container">
+              <div><p class="uppercase-text">mes verbes</p></div>
+              <div class="number"><p>4</p></div>
+            </div>
+            <div class="contenu-mes-verbes-container">
+              <div class="erase"><p>Tout supprimer</p></div>
+              <div class="input">
+                <input
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                  placeholder="Veuillez entrer un verbe"
+                />
+              </div>
+              <div class="verbs">
+                <p>Faire</p>
+                <img src="img/cross.png" alt="" />
+              </div>
+              <div class="verbs">
+                <p>Avoir</p>
+                <img src="img/cross.png" alt="" />
+              </div>
+              <div class="verbs">
+                <p>Être</p>
+                <img src="img/cross.png" alt="" />
+              </div>
+              <div class="verbs">
+                <p>Aller</p>
+                <img src="img/cross.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col-8">mes modes et temps</div>
       </div>
     </div>
@@ -91,5 +142,9 @@
       </div>
     </div>
     <script src="js/main.js" type="module"></script>
+    corriger en mettant display flex, justify content space between sur les
+    verbes <br />
+    corriger les espaces entre les options comme impression conjugaison <br />
+    corriger margin des verbes avec croix ajouter les interactions
   </body>
 </html>

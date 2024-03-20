@@ -1,0 +1,53 @@
+.mes-verbes-container {
+  border-radius: 4px;
+  border: solid 3px #5686da;
+}
+
+.title-mes-verbes-container {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 3px #5686da;
+  padding: 15px 35px;
+}
+
+input {
+  border: solid 3px #5686da;
+  border-radius: 4px;
+  width: 367px;
+  height: 63px;
+  padding-left: 18px;
+  font-size: 22px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  padding: 28px 0;
+}
+
+::placeholder {
+  opacity: 20%;
+}
+.erase {
+  color: #d40000;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.verbs img {
+  max-width: 20px;
+}
+
+.verbs {
+  background-color: #a0bbea;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 35px 12px 35px;
+}
+
+.number {
+  position: absolute;
+  left: 439px;
+}
