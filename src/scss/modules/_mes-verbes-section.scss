@@ -23,6 +23,7 @@ input {
   display: flex;
   justify-content: center;
   padding: 28px 0;
+  margin: 0 35px;
 }
 
 ::placeholder {
@@ -36,8 +37,8 @@ input {
   margin-top: 15px;
 }
 
-.verbs img {
-  max-width: 20px;
+.erase p {
+  margin-right: 35px;
 }
 
 .verbs {
@@ -45,9 +46,18 @@ input {
   border-radius: 4px;
   text-align: center;
   margin: 0 35px 12px 35px;
+  padding: 11px 145px;
+  position: relative;
+}
+
+.verbs img {
+  max-width: 20px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
 }
 
 .number {
   position: absolute;
-  left: 439px;
+  left: 435px;
 }
