@@ -57,3 +57,26 @@
 .modes-mini-section {
   margin-bottom: 50px;
 }
+
+.hidden {
+  visibility: hidden;
+}
+
+.allchecked {
+  color: #17a600;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.allunchecked {
+  color: #d40000;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.allchecked-bottons {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
