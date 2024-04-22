@@ -5,48 +5,402 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Étape 2 : projet Tatitotu</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-1">logo</div>
-        <div class="col-11">nav</div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">banner</div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-4">colonne 4</div>
-        <div class="col-4">menu déroulant type de conjugaison</div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-4">section mes verbes</div>
-        <div class="col-8">section modes et temps</div>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="row">
-        <div class="col-1"><img src="img/logo_tatitotu.png" alt="" /></div>
-        <div class="col-11">
-          <div class="footer-nav">
-            <div><a href="mailto:christophe.roulet@edu-vd.ch">Contact</a></div>
-            <div><a href="index.html">Qui sommes-nous ?</a></div>
-            <div>Besoin d'aide ?</div>
+    <header>
+      <div class="container header">
+        <div class="row">
+          <div class="col-1">
+            <h1><img class="logo" src="img/logo_tatitotu.png" alt="" /></h1>
           </div>
-          <p>
-            © Copyright 2023 TATITOTU - Created by Christophe Roulet & Serena
-            Voccia - Made in Switzerland
-          </p>
+          <div class="col-11">
+            <div class="nav">
+              <div>
+                <a href="mailto:christophe.roulet@edu-vd.ch">Contact</a>
+              </div>
+              <div><a href="index.html">Qui sommes-nous ?</a></div>
+              <div>Besoin d'aide ?</div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
+    <main>
+      <div class="">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner-container">
+              <div class="blue-banner-part_exercer-page">
+                <div class="banner-arrow-div">
+                  <a href="index.html">
+                    <img class="arrow-icon" src="img/arrow-back.png" alt="" />
+                  </a>
+                </div>
+                <div class="banner-button">
+                  <div class="banner-button-flexbox">
+                    <img class="icons" src="img/icon-writing.png" alt="" />
+                    <p class="uppercase-text">Exercer</p>
+                  </div>
+                </div>
+              </div>
+              <a href="mondéfi-page.html">
+                <div class="green-banner-part little-banner-buttons">
+                  <img class="icons" src="img/icon-done.png" alt="" />
+                </div>
+              </a>
+              <a href="exercer-page.html">
+                <div class="blue-banner-part little-banner-buttons">
+                  <img class="icons" src="img/icon-print.png" alt="" />
+                </div>
+              </a>
+              <a href="apprentissage-page.html">
+                <div class="red-banner-part little-banner-buttons">
+                  <img class="icons" src="img/icon-book.png" alt="" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container menus-deroulants-container">
+        <div class="row">
+          <div class="col-4">
+            <div class="menu-deroulant">
+              <div><p class="uppercase-text">nombre de questions</p></div>
+              <div><p>20</p></div>
+              <div><img src="img/icon-arrow.png" alt="" /></div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="menu-deroulant gap-of-type-menu">
+              <div><p class="uppercase-text">type</p></div>
+              <div><p>Conjugaison</p></div>
+              <div><img src="img/icon-arrow.png" alt="" /></div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="menu-deroulant gap-of-impression-menu">
+              <div><p class="uppercase-text">options d'impression</p></div>
+              <div><img src="img/icon-arrow.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="mes-verbes-container">
+              <div class="title-mes-verbes-container">
+                <div><p class="uppercase-text">mes verbes</p></div>
+                <div class="number"><p>4</p></div>
+              </div>
+              <div class="contenu-mes-verbes-container">
+                <div class="erase"><p>Tout supprimer</p></div>
+                <div class="input">
+                  <input
+                    type="text"
+                    id="firstname"
+                    name="firstname"
+                    placeholder="Veuillez entrer un verbe"
+                  />
+                </div>
+                <div class="verbs">
+                  Faire
+                  <img src="img/cross.png" alt="" />
+                </div>
+                <div class="verbs">
+                  <div><p>Avoir</p></div>
+                  <div><img src="img/cross.png" alt="" /></div>
+                </div>
+                <div class="verbs">
+                  <div><p>Être</p></div>
+                  <div><img src="img/cross.png" alt="" /></div>
+                </div>
+                <div class="verbs">
+                  <div><p>Aller</p></div>
+                  <div><img src="img/cross.png" alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="temps-container">
+              <div class="title-temps-container">
+                <div><p class="uppercase-text">mes modes et temps</p></div>
+              </div>
+              <div class="contenu-temps-container">
+                <div class="allchecked-bottons">
+                  <div class="allchecked"><p>Tout cocher</p></div>
+                  <div class="allunchecked"><p>Tout décocher</p></div>
+                </div>
+                <div class="modes-mini-section">
+                  <p class="modes uppercase-text">indicatif</p>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Présent</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp">
+                      <div>Passé composé</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Imparfait</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp">
+                      <div>Plus-que-parfait</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Futur</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp">
+                      <div>Futur antérieur</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Passé simple</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp">
+                      <div>Passé antérieur</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modes-mini-section">
+                  <p class="modes uppercase-text">imperatif</p>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Présent</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp">
+                      <div>Passé</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modes-mini-section">
+                  <p class="modes uppercase-text">subjonctif</p>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Présent</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp">
+                      <div>Passé</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Imparfait</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp">
+                      <div>Plus-que-parfait</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modes-mini-section">
+                  <p class="modes uppercase-text">conditionnel</p>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Présent</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp hidden">
+                      <div>Passé</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Passé 1</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp">
+                      <div>Passé 2</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modes-mini-section">
+                  <p class="modes uppercase-text">participe</p>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Présent</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp">
+                      <div>Passé</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modes-mini-section">
+                  <p class="modes uppercase-text">gérondif</p>
+                  <div class="temps">
+                    <div class="temp">
+                      <div>Présent</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="temp">
+                      <div>Passé</div>
+                      <div>
+                        <label class="switch">
+                          <input type="checkbox" />
+                          <span class="slider round"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="row">
+          <div class="col-1"><img src="img/logo_tatitotu.png" alt="" /></div>
+          <div class="col-11">
+            <div class="footer-nav">
+              <div>
+                <a href="mailto:christophe.roulet@edu-vd.ch">Contact</a>
+              </div>
+              <div><a href="index.html">Qui sommes-nous ?</a></div>
+              <div>Besoin d'aide ?</div>
+            </div>
+            <p>
+              © Copyright 2023 TATITOTU - Created by Christophe Roulet & Serena
+              Voccia - Made in Switzerland
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

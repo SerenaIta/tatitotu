@@ -47,6 +47,26 @@
   background-color: #f56076;
 }
 
+.blue-banner-part {
+  background-color: #5686da;
+}
+
 .arrow-icon {
   width: 40px;
+}
+
+.blue-banner-part_exercer-page {
+  padding: 12px 0;
+  background-color: #fcaf17;
+  display: flex;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.blue-banner-part_mondefi-page {
+  padding: 12px 0;
+  background-color: #77bd1d;
+  display: flex;
+  margin: 0;
+  flex-grow: 1;
 }
