@@ -3,10 +3,34 @@
   border: solid 3px #5686da;
 }
 
+.temps-container_exercer-page {
+  border-radius: 4px;
+  border: solid 3px #fcaf17;
+}
+
+.temps-container_mondefi-page {
+  border-radius: 4px;
+  border: solid 3px #77bd1d;
+}
+
 .title-temps-container {
   display: flex;
   align-items: center;
   border-bottom: solid 3px #5686da;
+  padding: 15px 35px;
+}
+
+.title-temps-container_exercer-page {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 3px #fcaf17;
+  padding: 15px 35px;
+}
+
+.title-temps-container_mondefi-page {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 3px #77bd1d;
   padding: 15px 35px;
 }
 
@@ -29,8 +53,44 @@
   border-radius: 4px;
 }
 
+.modes_exercer-page {
+  background-color: #fdd27d;
+  padding: 13px 154px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.modes_mondefi-page {
+  background-color: #b3da80;
+  padding: 13px 154px;
+  text-align: center;
+  border-radius: 4px;
+}
+
 .temp {
   background-color: #e6edfa;
+  display: flex;
+  justify-content: space-between;
+  width: 405px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.temp_exercer-page {
+  background-color: #fff3dc;
+  display: flex;
+  justify-content: space-between;
+  width: 405px;
+  border-radius: 4px;
+  padding: 10px 20px;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.temp_mondefi-page {
+  background-color: #ebf5dd;
   display: flex;
   justify-content: space-between;
   width: 405px;
@@ -120,6 +180,14 @@
 
 input:checked + .slider {
   background-color: #5686da;
+}
+
+.temp_exercer-page input:checked + .slider {
+  background-color: #fcaf17;
+}
+
+.temp_mondefi-page input:checked + .slider {
+  background-color: #77bd1d;
 }
 
 input:focus + .slider {
